@@ -1,0 +1,136 @@
+{
+  "pipeline_summary": {
+    "raw_total": 1101,
+    "quality_filter_removed": -1,
+    "noise_token_fixed": 46,
+    "exact_dedup_removed": 1,
+    "fuzzy_dedup_removed": 0,
+    "after_dedup": 1100,
+    "train_size": 993,
+    "val_size": 107
+  },
+  "verb_distribution_top30": {
+    "调查": 67,
+    "雇佣": 66,
+    "交易": 53,
+    "委托": 51,
+    "命令": 49,
+    "施舍": 48,
+    "询问": 44,
+    "闲聊": 44,
+    "贿赂": 37,
+    "寻找": 31,
+    "求助": 31,
+    "审问": 26,
+    "合作": 25,
+    "观察": 23,
+    "胁迫": 16,
+    "挑衅": 15,
+    "威胁": 14,
+    "招募": 14,
+    "打听": 12,
+    "忽略": 11,
+    "回忆": 9,
+    "交谈": 9,
+    "治疗": 8,
+    "质问": 8,
+    "同情": 8,
+    "搭讪": 7,
+    "抱怨": 7,
+    "帮助": 7,
+    "无视": 6,
+    "路过": 6
+  },
+  "category_distribution": {
+    "OTHER": 337,
+    "TRADE": 143,
+    "INFO": 223,
+    "TASK": 161,
+    "SOCIAL": 76,
+    "VIOLENCE": 41,
+    "COOP": 60,
+    "COMMAND": 59
+  },
+  "train_val_category_balance": {
+    "COMMAND": {
+      "train": 54,
+      "val": 5,
+      "val_ratio": 0.085
+    },
+    "COOP": {
+      "train": 54,
+      "val": 6,
+      "val_ratio": 0.1
+    },
+    "INFO": {
+      "train": 201,
+      "val": 22,
+      "val_ratio": 0.099
+    },
+    "OTHER": {
+      "train": 304,
+      "val": 33,
+      "val_ratio": 0.098
+    },
+    "SOCIAL": {
+      "train": 69,
+      "val": 7,
+      "val_ratio": 0.092
+    },
+    "TASK": {
+      "train": 145,
+      "val": 16,
+      "val_ratio": 0.099
+    },
+    "TRADE": {
+      "train": 129,
+      "val": 14,
+      "val_ratio": 0.098
+    },
+    "VIOLENCE": {
+      "train": 37,
+      "val": 4,
+      "val_ratio": 0.098
+    }
+  },
+  "output_length_stats": {
+    "count": 1100,
+    "min": 350,
+    "max": 826,
+    "mean": 495.2,
+    "median": 486,
+    "p10": 417,
+    "p90": 583
+  },
+  "instruction_length_stats": {
+    "count": 1100,
+    "min": 17,
+    "max": 63,
+    "mean": 33.7,
+    "median": 33,
+    "p10": 26,
+    "p90": 43
+  },
+  "tool_function_distribution": {
+    "update_npc_stat": 1454,
+    "set_npc_identity": 895,
+    "rewrite_history": 221,
+    "update_world_stat": 214,
+    "trigger_event": 62,
+    "update_player_stat": 30,
+    "schedule_event": 13,
+    "spawn_npc": 9,
+    "create_npc": 8,
+    "random": 7,
+    "delete_npc": 7,
+    "log_event": 7,
+    "mark_player": 6,
+    "kill_npc": 5,
+    "update_faction_stat": 5,
+    "create_event": 5,
+    "update_faction_relation": 5,
+    "add_debuff": 4,
+    "update_zone_stat": 4,
+    "add_trait": 4
+  }
+}

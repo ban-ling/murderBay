@@ -1,0 +1,28 @@
+[
+  {
+    "label": "参考答案(验证集)",
+    "sample_count": 50,
+    "structural_validity": {
+      "has_think_rate": 100.0,
+      "has_tool_code_rate": 100.0,
+      "has_narrative_rate": 100.0,
+      "fully_valid_rate": 100.0
+    },
+    "tool_call_validity": {
+      "has_tool_code_rate": 100.0,
+      "syntax_valid_rate": 92.0,
+      "avg_call_count": 3.0
+    },
+    "style_consistency": {
+      "passes_threshold_rate": 58.0,
+      "avg_keyword_density": 0.645,
+      "avg_style_score": 0.58
+    },
+    "output_length": {
+      "mean": 500.5,
+      "median": 500,
+      "min": 381,
+      "max": 661
+    }
+  }
+]
