@@ -46,8 +46,6 @@ murderBay/
 │   ├── generate_dpo_data.py# 生成 DPO 对比数据
 │   ├── eval.py             # 模型量化评估脚本
 │   └── visualize_report.py # 可视化数据报告
-├── trainer/
-│   └── full_sft_murder_bay.py  # MiniMind 全量 SFT 训练脚本
 └── eval_llm_murder.py      # 通用 LLM 评估入口
 ```
 
@@ -166,16 +164,9 @@ swift sft \
   --num_train_epochs 3
 ```
 
-### 第四步（可选）：MiniMind 全量 SFT
 
-```bash
-python trainer/full_sft_murder_bay.py \
-  --data_path dataset/murder_bay_data.jsonl \
-  --save_dir out \
-  --epochs 5
-```
 
-### 第五步：模型评估
+### 第四步：模型评估
 
 ```bash
 # 离线模式（统计验证集质量，无需 GPU）
